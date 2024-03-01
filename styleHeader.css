@@ -1,0 +1,52 @@
+header {
+    background: url("Recourses/background_honeycomb.svg") no-repeat;
+}
+.header_button {
+    background-color: #4B4022;
+    border-radius: 15px;
+    padding: 3% 10%;
+    margin-bottom: 20%;
+    font-size: 64px;
+    display: inline-block;
+    text-align: center;
+}
+
+.header_med {
+    margin: 4% 0 0 65%;
+}
+
+
+.header_text {
+    font-size: 128px;
+    font-family: "rubik wet paint", sans-serif;
+    margin: 0;
+}
+
+.header_podtext {
+    font-size: 48px;
+    margin: 10% 0;
+}
+
+.phone {
+    font-size: 48px;
+    margin-left: 4%;
+    display: inline-block;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5%;
+}
+.head div {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    width: 700px;
+    justify-content: end;
+}
+
+.head img:first-child {
+    margin: 0 0 0 4%;
+}

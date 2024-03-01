@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&family=Rubik+Wet+Paint&display=swap');
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>НУ МЁД!</title>
+    <link rel="icon" href="/Recourses/wing_logo.png">
+    <link rel="stylesheet" href="styleHeader.css">
+    <link rel="stylesheet" href="styleMain&media.css">
+    <link rel="stylesheet" href="styleMain.css">
+    <link rel="stylesheet" href="styleFooter.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <img src="Recourses/ny_med_logo.svg" alt="Логотип">
+            <div class="mediaEnter">
+                <img src="Recourses/shopping_basket.svg" class="button" alt="Корзина">
+                <a class="phone">+7 (912) 321 231</a>
+            </div>
+        </div>
+        <div class="header_med">
+            <p class="honey_color header_text">НУ<br>МЁД!</p>
+            <p class="header_podtext">Предоставляем лучший экологически чистый мед</p>
+            <a href="#catalog"><div class="button header_button honey_color">КУПИТЬ МЁД</div></a>
+        </div>
+    </header>
+
+    <main>
+        <p class="headerMain">НАШИ<span class="honey_color">ПРЕИМУЩЕСТВА</span></p>
+        <div class="advantages">
+            <div class="advantage">
+                <img src="Recourses/advantages/hive.svg" alt="Домик">
+                <p>Наши пчёлки живут в <span class="honey_color">лучших</span> условиях</p>
+            </div>
+            <div class="advantage">
+                <p>Мы производим <span class="honey_color">экологически</span> чистый мёд</p>
+                <img src="Recourses/advantages/honey_l.svg" alt="Ложка">
+            </div>
+            <div class="advantage">
+                <img src="Recourses/advantages/2bee.svg" alt="Пчелы">
+                <p>C нашими пчёлками работают только
+                    <span class="honey_color">профессионалы</span></p>
+            </div>
+            <div class="advantage">
+                <p><span class="honey_color">Доставка</span> по России, Казахстану и Белоруссии</p>
+                <img src="Recourses/advantages/honeycomb.svg" alt="Соты">
+            </div>
+        </div>
+
+        <p class="headerMain">НАША<span class="honey_color">ПАСЕКА</span></p>
+
+        <div class="excursion">
+            <p>Пасека НУ МЁД находится на реке БызьБызь в Ростовской области - Райском месте для пчёл. Проезжая мимо, обязательно загляните к нам на мёд и чай, мы проведём вам экскурсию и покажем, как живут наши пчёлки и производят Ваш любимый мёд!</p>
+            <video autoplay loop muted  class="bgvideo">
+                <source src="Recourses/apiary.mkv" type="video/mp4">
+            </video>
+            <div class="rec_but button" onclick="window.butExc.showModal()">ЗАПИСАТЬСЯ НА ЭКСКУРСИЮ</div>
+        </div>
+
+        <dialog id="butExc" class="butOrder">
+            Мы свяжемся с вами
+            <form method="dialog">
+                <button>
+                    Закрыть
+                </button>
+            </form>
+        </dialog>
+
+        <dialog id="butBusket" class="butOrder">
+            Товар добавлен в коризину!
+            <form method="dialog">
+                <button>
+                    Закрыть
+                </button>
+            </form>
+        </dialog>
+
+        <p class="headerMain"><a name="catalog">КАТАЛОГ<span class="honey_color">МЁДА</span></a></p>
+
+        <div class="catalog">
+
+
+            <div class="product">
+                <img src="Recourses/assortment/lipovii.png" alt="">
+                <div class="productDescription">
+                    <p class="productHeader">ЛИПОВЫЙ<span class="honey_color">МЁД</span></p>
+                    <p class="productPodHead">Считается, что липовый мед обладает<span class="honey_color"> противовоспалительными </span>свойствами и помогает при <span class="honey_color">простуде и кашле</span>.</p>
+                    <div class="price">
+                        <div class="podprice">
+                            <p>Цена за 500 мл:</p>
+                            <p class="rouble">1 999 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+                        <div class="podprice">
+                            <p>Цена за 1 литр:</p>
+                            <p class="rouble">3 499 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Recourses/assortment/tsvetochnii.png" alt="">
+                <div class="productDescription">
+                    <p class="productHeader">ЦВЕТОЧНЫЙ<span class="honey_color">МЁД</span></p>
+                    <p class="productPodHead">Мед из ромашек помогает укрепить <span class="honey_color">иммунитет </span>, обладает успокаивающим действием и может помочь при <span class="honey_color">бессоннице</span>.</p>
+                    <div class="price">
+                        <div class="podprice">
+                            <p>Цена за 500 мл:</p>
+                            <p class="rouble"> 999 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+                        <div class="podprice">
+                            <p>Цена за 1 литр:</p>
+                            <p class="rouble">1 990 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Recourses/assortment/domashnii.png" alt="">
+                <div class="productDescription">
+                    <p class="productHeader">ДОМАШНИЙ<span class="honey_color">МЁД</span></p>
+                    <p class="productPodHead">Мёд из <span class="honey_color">разных цветов </span>как по-домашнему, вкусный и полезный, а главное - родной!</p>
+                    <div class="price">
+                        <div class="podprice">
+                            <p>Цена за 500 мл:</p>
+                            <p class="rouble"> 799 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+                        <div class="podprice">
+                            <p>Цена за 1 литр:</p>
+                            <p class="rouble">1 390 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <p class="headerMain">УНИКАЛЬНЫЙ<span class="red_text">МЁД</span></p>
+        <p class="headerUnique">НУ МЁД предлагает редкие <span class="red_text">уникальные</span> вкусы мёда по демократичным ценам только для наших покупателей!</p>
+
+        <div class="catalog unique">
+
+
+            <div class="product">
+                <img src="Recourses/assortment/gornii.png" alt="">
+                <div class="productDescription">
+                    <p class="productHeader">ГОРНЫЙ<span class="honey_color">МЁД</span></p>
+                    <p class="productPodHead">Мёд, собираемый пчелами в горных районах. Содержит больше <span class="honey_color">минералов и витаминов</span>, чем другие виды меда.</p>
+                    <div class="price">
+                        <div class="podprice">
+                            <p>Цена за 500 мл:</p>
+                            <p class="rouble">2 999 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+                        <div class="podprice">
+                            <p>Цена за 1 литр:</p>
+                            <p class="rouble">5 499 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Recourses/assortment/kipreinii.png" alt="">
+                <div class="productDescription">
+                    <p class="productHeader">КИПРЕЙНЫЙ<span class="honey_color">МЁД</span></p>
+                    <p class="productPodHead">Мёд из цветков <span class="honey_color">иван-чай</span>, обладает успокаивающими свойствами, помогает при <span class="honey_color">бессоннице и стрессе</span>.</p>
+                    <div class="price">
+                        <div class="podprice">
+                            <p>Цена за 500 мл:</p>
+                            <p class="rouble">2 599 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+                        <div class="podprice">
+                            <p>Цена за 1 литр:</p>
+                            <p class="rouble">4 999 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="Recourses/assortment/kedrovii.png" alt="">
+                <div class="productDescription">
+                    <p class="productHeader">КЕДРОВЫЙ<span class="honey_color">МЁД</span></p>
+                    <p class="productPodHead">Собирается пчелами с <span class="honey_color">кедровых шишек</span>, имеет темно-коричневый цвет и насыщенный вкус, богатый <span class="honey_color">витаминами и микроэлементами</span>.</p>
+                    <div class="price">
+                        <div class="podprice">
+                            <p>Цена за 500 мл:</p>
+                            <p class="rouble">3 799 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+                        <div class="podprice">
+                            <p>Цена за 1 литр:</p>
+                            <p class="rouble">6 499 ₽</p>
+                            <div class="butBusket button" onclick="window.butBusket.showModal()">В корзину</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <p class="headerMain">ОФОРМИТЬ<span class="honey_color">ЗАКАЗ</span></p>
+
+        <div class="order">
+            <p>Мы соберём мёд, который вы добавили в корзину<br>и свяжемся с вами для дальнейшей <span class="honey_color">оплаты и доставки</span>!
+                <br><br>Пожалуйста, оставьте свои <span class="red_text">корректные</span> данные!
+            </p>
+
+            <form action="">
+                <input type="text" placeholder="Ваше имя">
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="Номер телефона">
+                <select name="" id="">
+                    <option selected>Россия</option>
+                    <option>Казахстан</option>
+                    <option>Беларусь</option>
+                </select>
+                <button class="button" onclick="window.butOrder.showModal()">ОФОРМИТЬ ЗАКАЗ</button>
+            </form>
+
+        </div>
+
+    </main>
+
+    <dialog id="butOrder" class="butOrder">
+        Заказ оформлен!<br>Мы свяжемся с вами
+        <form method="dialog">
+            <button>
+                Закрыть
+            </button>
+        </form>
+    </dialog>
+
+    <img src="Recourses/honeycomb_footer.png" alt="" class="imgFooter">
+    <footer>
+        <div>
+            <p>При изготовлении меда ни одна пчела<br>не пострадала, по вопросам обращаться<br> к жужжинному юристу</p>
+            <p>Ну Мёд, Мёд, Ну Медятина</p>
+            <p>Project by Akane aka Olia</p>
+        </div>
+        <p>© ny_med<br>
+            2024 г, Ростовская область
+        </p>
+        <div>
+            <div>
+                <img src="Recourses/icon/mail.svg" alt="">
+                <p>tiPCHELAyaPCHELOVOD@gmail.bzz</p>
+            </div>
+            <div>
+                <img src="Recourses/icon/telega.svg" alt="">
+                <p>@hipe_pchelok</p>
+            </div>
+            <div>
+                <img src="Recourses/icon/inst.svg" alt="">
+                <p>BZZ_life_in_apiary</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+footer {
+    background-color: #4B4022;
+    margin-top: 4%;
+    color: #faf9f5;
+    padding-top: 8%;
+    display: flex;
+    font-size: 32px;
+    justify-content: center;
+    align-items: center;
+}
+footer img {
+    width: 10%;
+    margin: 0 2% 0 0;
+}
+footer div div p {
+    margin: 2% 2% ;
+}
+.imgFooter {
+    position: absolute;
+    width: 99.99%;
+}
+footer div {
+    padding: 0 3%;
+    flex-basis: 33%;
+}
+footer div div {
+    display: flex;
+}
+
+footer div p:nth-child(3) {
+    font-size: 24px;
+}

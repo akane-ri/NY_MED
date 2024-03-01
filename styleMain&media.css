@@ -1,0 +1,134 @@
+html {
+    background-color: #faf9f5;
+    font-family: "Kelly Slab", serif;
+    margin: 0;
+    color: #4B4022;
+}
+body {
+    margin: 0;
+}
+.honey_color {
+    color: #FDBB30;
+}
+.red_text {
+    color: #FC3A00;
+}
+
+main {
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+}
+
+/*header*/
+@media (max-width: 850px) {
+
+    body {
+        padding-right: 0;
+    }
+    .advantages {
+        padding: 0;
+    }
+    .advantage {
+        width: 10%;
+    }
+    .head div {
+        width: 70%;
+        margin-right: 0;
+    }
+    .product, .price, footer, .head, .mediaEnter {
+        flex-direction: column;
+    }
+    body .headerMain  {
+        font-size: 220%;
+    }
+    body .headerMain:first-child  {
+        font-size: 210%;
+    }
+    form input {
+        width: 80%;
+    }
+    form select {
+        width: 85%;
+    }
+    .catalog .product {
+        align-items: center;
+        text-align: center;
+        width: 85%;
+    }
+    .catalog .product .productHeader {
+        font-size: 120%;
+    }
+    .catalog .product .productPodHead {
+        font-size: 80%;
+    }
+
+    .catalog .product .price div:nth-child(2) {
+        margin-left: 0;
+        margin-bottom: 10%;
+    }
+
+    header {
+        background: none;
+    }
+    .header_med {
+        margin: 0;
+    }
+    .headerMain, .product p, footer p, .advantage p, .headerUnique {
+        word-wrap: break-word;
+        overflow-wrap: anywhere;
+    }
+
+    .catalog .product .productDescription {
+        align-items: center;
+    }
+    main .headerUnique {
+        width: 80%;
+    }
+    main .excursion p, main .headerUnique, .advantages .advantage p, header .header_podtext, main .order p, html body footer div p {
+        font-size: 24px;
+    }
+    header .header_podtext {
+        padding-left: 1%;
+    }
+    main .excursion .rec_but {
+        font-size: 18px;
+    }
+    .advantage img {
+        width: 30%;
+    }
+    .advantages .advantage {
+        width: 80%;
+    }
+    .head .phone {
+        font-size: 32px;
+    }
+    .header_med .header_button {
+        margin: 0 1%;
+        font-size: 48px;
+    }
+    .header_med {
+        align-items: center;
+    }
+
+    .order form button {
+        font-size: 32px;
+    }
+}
+
+dialog {
+    background-color: #faf9f5;
+    border: #FDBB30 2px solid;
+    font-family: "Kelly Slab", sans-serif;
+    text-align: center;
+}
+dialog button {
+    background-color: #4B4022;
+    color: #FDBB30;
+    padding: 2%;
+    margin: 2%;
+    border: none;
+}
+
